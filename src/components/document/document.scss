@@ -1,0 +1,61 @@
+.documentSpace {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    &-images {
+      width: 500px;
+      margin-right: 30px;  
+    }
+
+    &-form {
+        width: 700px;
+        #daumoc {
+            height: 100px;
+            div {
+                .daumocImg {
+                    height: 80px;
+                    width: 80px;
+                }
+                image {
+                    height: 80px;
+                    width: 80px;
+                }
+            }
+
+        }
+        text-align: center;
+        align-items: center;
+        form {
+            padding: 0;
+            margin: 0;
+            text-align: center;
+            .signal {
+                display: grid;
+                .row {
+                    padding-bottom: 15px;
+                }
+            }
+            div {
+                display: flex;
+                padding-left: 0px;
+                label {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 14px;
+                    font-weight: 500;
+                    padding-left: 0px;
+                    padding-right: 0px;
+                    background-color: #87AAAA;
+                }
+
+                input {
+                    padding: 0;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}

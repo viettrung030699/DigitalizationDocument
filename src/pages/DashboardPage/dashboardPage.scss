@@ -1,0 +1,11 @@
+.dashboard-content {
+
+    position: absolute;
+    z-index: 1;
+    .react-bootstrap-table-pagination-list  {
+        padding: 0px;
+    }
+}
+.row .react-bootstrap-table-pagination {
+    margin-right: 0px;
+}

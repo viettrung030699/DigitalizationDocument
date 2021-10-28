@@ -1,0 +1,57 @@
+@import "~bootstrap/scss/bootstrap";
+.bg-custom {
+    background-color: #253b80;
+}
+.nav-link__custom {
+    color: red;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    color: #fff;
+    text-decoration: underline 0.15em rgba(0, 0, 0, 0);
+    transition: text-decoration-color 300ms;
+
+    &:hover {
+        text-decoration-color: rgba(0, 0, 0, 1);
+    }
+}
+
+.navbar-collapse__custom {
+    justify-content: flex-end;
+}
+
+// .header {
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+//     padding: 30px 10%;
+//     background-color: #253b80;
+//     color: #fff;
+//     height: 30px;
+//     .nav__links {
+//         li {
+//             padding: 0px 20px;
+//             a {
+//                 transition: all 0.3s ease 0s;
+//                 &:hover {
+//                     color: royalblue;
+//                     font-size: 18px;
+//                     font-weight: 600;
+//                 }
+//                 button {
+//                     color: #fff;
+//                     padding: 9px 25px;
+//                     background-color: royalblue;
+//                     border: none;
+//                     border-radius: 50px;
+//                     cursor: pointer;
+//                     transition: all 0.3s ease 0s;
+//                     &:hover {
+//                         background-color: hsl(225, 60%, 44%);
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }
+

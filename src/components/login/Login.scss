@@ -1,0 +1,99 @@
+@media all and (min-width: 480px) {
+  .Login {
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+    // align-items: center;
+
+    .Login-Info {
+      color: #fff;
+      font-size: 16px;
+      max-width: 400px;
+      padding-right: 28px;
+
+      &__greeting {
+        font-size: 36px;
+        font-weight: 700;
+        padding-bottom: 10px;
+        padding-top: 45px;
+      }
+
+      &__scripting {
+        padding-bottom: 15px;
+        .scripting_1 {
+          padding-top: 5px;
+          padding-bottom: 10px;
+          margin-bottom: 5px;
+          margin-top: 5px;
+        }
+      }
+    }
+  }
+
+  .Login form {
+    margin: 10 auto;
+    max-width: 320px;
+    color: #fff;
+    label {
+      padding-top: 13px;
+    }
+  }
+
+}
+@media screen and (max-width: 480px) {
+    .Login {
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    flex-direction: column;
+    justify-content: center;
+
+    .Login-Info {
+      color: #fff;
+      font-size: 16px;
+      max-width: 400px;
+
+      &__greeting {
+        font-size: 36px;
+        font-weight: 700;
+        padding-bottom: 10px;
+        padding-top: 15px;
+        text-align: center;
+      }
+
+      &__scripting {
+        padding-bottom: 15px;
+        .scripting_1 {
+          padding-top: 5px;
+          padding-bottom: 10px;
+          margin-bottom: 5px;
+          margin-top: 5px;
+        }
+      }
+    }
+  }
+
+  .Login form {
+    margin: 10 auto;
+    max-width: 320px;
+    color: #fff;
+    label {
+      padding-top: 13px;
+    }
+  }
+}
+
+.btn {
+  width: 100%;
+  margin-top: 20px;
+  background-color: #1597E5;
+
+  .btn-register {
+    color: red;
+    background-color: #ffba90;
+    border-color: #ff8c6b;
+  }
+}
+
+// /* import bootstrap to set changes */
+// @import "~bootstrap/scss/bootstrap";

@@ -1,0 +1,92 @@
+@import "../../Styles/style.scss";
+
+.content-table {
+    height: 100%;
+    width: 100%;
+
+    .react-bootstrap-table table {
+        background-color: aliceblue;
+        font-size: 14px;
+        color: #000;
+    }
+    .pagination {
+        padding-left: 12px;
+    }
+    @include bp-xxlarge {
+        padding-top: 100px;
+        .total-count {
+            font-size: 24px;
+            color: #000;
+            font-weight: 600;
+            padding-left: 150px;
+            padding-right: 150px;
+            padding-bottom: 15px;
+        }
+    }
+
+    @include bp-xlarge {
+        padding-top: 100px;
+        .total-count {
+            font-size: 24px;
+            color: #000;
+            font-weight: 600;
+            padding-bottom: 15px;
+        }
+    }
+
+    @include bp-medium {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 20px;
+        .total-count {
+            font-size: 24px;
+            color: #000;
+            font-weight: 600;
+            text-align: center;
+            padding-bottom: 15px;
+        }
+    }
+}
+.react-bootstrap-table {
+    @include bp-xxlarge {
+        padding-left: 150px;
+        padding-right: 150px; 
+    }
+
+    @include bp-xlarge {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+
+    @include bp-medium {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    thead {
+        color: #000;
+        text-align: center;
+        align-items: center;
+
+        label {
+            padding-left: 20px;
+        }
+    }
+    tbody {
+        color: #000;
+    }
+
+    .react-bootstrap-table-pagination-list {
+        text-align: center;
+        align-items: center;
+    }
+}
+
+
+    .react-bootstrap-table-pagination {
+        padding-left: 150px;
+        padding-right: 150px;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
